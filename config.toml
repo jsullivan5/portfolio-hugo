@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Forty"
+title = "James Sullivan"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -34,8 +34,8 @@ googleAnalytics = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "James Sullivan"
+    subtitle = "Web Developer"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -48,9 +48,9 @@ googleAnalytics = ""
       name = "Blogs"
       url = "blogs"
 
-    [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+    # [[params.navigation.links]]
+    #   name = "Generic Blog"
+    #   url = "blogs/ipsum"
 
     [[params.navigation.links]]
       name = "Elements"
@@ -78,9 +78,9 @@ googleAnalytics = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "JAMES SULLIVAN"
+    subtitle = "Web Developer"
+    buttonText = "MY PORTFOLIO"
 
 
   # Tiles Section
@@ -89,40 +89,61 @@ googleAnalytics = ""
     # Display your showcases here.
 
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Doing Things Media"
+      subtitle = """Built in React.js on top of AWS cloud services, \
+      this site serves a video upload page for a social media personality \
+      with millions of followers.  The site uses Amazon's DynamoDB, API \
+      Gateway, Lambda and S3 to store user data and content. This architecture \
+      provides a cost effective and scalable solution to growth in the user \
+      base and a safeguard against downtime during viral moments."""
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "https://www.doingthingsmedia.com"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Quizzam"
+      subtitle = """This group project, built with a React, Router, Redux \
+      stack with an Express and Knex.js back end, is a real time quizzing \
+      application that allows students and teachers to connect via web sockets \
+      to get a pulse check on the room. This app provides an open source, \
+      software solution to classroom polling."""
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "https://github.com/jsullivan5/Quizzam"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "TextSmart UI"
+      subtitle = """This project removes the ambiguity of text messaging \
+      by implimenting Watson and Twilio on a React/React Router/ Redux \
+      stack.  Send a text message to our number and receive sentiment \
+      analysis on it's content.  Users can review their history and \
+      view submitted content on the site."""
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "https://github.com/jsullivan5/txtsmrt-ui"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "TextSmart API"
+      subtitle = """This RESTFUL API coordinates with the UI and intagrates \
+      the IBM Watson and Twilio APIs.  Built with Node and Express, it uses \
+      MongoDB and Express Session for data and session persistance."""
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "https://github.com/jsullivan5/txtsmrt-api"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Connect The Dots"
+      subtitle = """This project was built to play with maps.  Built with \
+      Leaflet.js on top of React and Redux, users can map latitude and \
+      longitude to a leaflet map.  Rendered points are clickable and can \
+      connect the dots oon the map. Data is persited with MongoDB."""
       image = "pic05.jpg"
-      url = "blogs/ipsum"
+      url = "https://github.com/jsullivan5/Connect-The-Dots"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Foto Finder"
+      subtitle = """This resful API is designed for use in photo applications, \
+      where enthusiasts can provide EXIF details about their photos, and \
+      connect photos to locations and cameras.  It uses JWTs for authentication \
+      and returns all responses in JSON format."""
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "https://github.com/jsullivan5/byob"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -135,12 +156,13 @@ googleAnalytics = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus pharetra.
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "About Me"
+    subtitle = """I am a mental health professional turned software developer who wants to combine
+    my passion for helping others with a technical skillset offering the broadest possible reach.
+    My soft skills, acquired through a career spent helping those in need, combined with a strong
+    and ever expanding technical skillset make me a dynamic team member and an ideal candidate.
+    I look forward to the continued development of my technical skills and a lifetime of learning.
+    I enjoy building lean, intuitive and thoroughly tested applications that add value to lives of others."""
     buttonText = "Get Started"
     url = "blogs"
 
@@ -169,49 +191,49 @@ googleAnalytics = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "jamesfsullivan5@gmail.com"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    phone = "(214) 621-0523"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "977 Xavier St"
+    city = "Denver, C0 80204"
+    country = ""
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "James Sullivan"
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   url= "https://www.twitter.com"
+    #   label = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   url= "https://www.facebook.com"
+    #   label = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com"
-      label = "Instagram"
 
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/jsullivan5"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/james-f-sullivan/"
       label = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+    [[params.footer.social]]
+    icon = "fa-instagram"
+    url= "https://www.instagram.com/cultural_ambassador/"
+    label = "Instagram"
+    # [[params.footer.quicklinks]]
+    #   text = "Design: "
+    #   url= "https://www.html5up.net"
+    #   alt = "HTML5 UP"
