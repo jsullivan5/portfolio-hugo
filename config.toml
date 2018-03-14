@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "James Sullivan"
 theme = "forty"
@@ -40,21 +40,40 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
-    [[params.navigation.links]]
-      name = "Home"
-      url = "#"
+    [[params.navigation.home]]
+      name="Home"
+
+    [[params.navigation.portfolio]]
+      name="Portfolio"
+
+    [[params.navigation.about]]
+      name="About"
+
+    [[params.navigation.contact]]
+      name="Contact"
+
+    [[params.navigation.social]]
+      name="social"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Github"
+      url = "https://github.com/jsullivan5"
+
+    [[params.navigation.links]]
+      name = "LinkedIn"
+      url = "https://www.linkedin.com/in/james-f-sullivan/"
+
+    [[params.navigation.links]]
+      name = "Turing Portfolio"
+      url = "https://www.turing.io/alumni/james-sullivan"
 
     # [[params.navigation.links]]
     #   name = "Generic Blog"
     #   url = "blogs/ipsum"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+    # [[params.navigation.links]]
+    #   name = "Elements"
+    #   url = "elements.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -64,14 +83,14 @@ googleAnalytics = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+    # [[params.navigation.button1]]
+    #   name = "About"
+    #   url = "blogs"
+    #
+    # # Button Style 2
+    # [[params.navigation.button2]]
+    #   name = "Portfolio"
+    #   url = "#"
 
 
   # Banner section
