@@ -1,6 +1,9 @@
 {{ "<!-- Banner -->" | safeHTML}}
     <section id="banner" class="major">
         <div class="inner">
+            {{ with .Site.Params.headshot }}
+            <img src="{{ . | absURL }}" class="headshot" alt="photo/headshot" />
+            {{ end }}
             <header class="major">
                 <h1>{{ .Site.Params.Banner.title }}</h1>
             </header>
@@ -8,7 +11,7 @@
                 <p>{{ .Site.Params.Banner.subtitle }}</p>
                 <ul class="actions">
                     <li>
-                      <a href="/JamesSullivanResume.pdf" class="button next scrolly" target="_blank">
+                      <a href="/JamesSullivanResume.pdf" class="button next" target="_blank">
                         {{ .Site.Params.Banner.buttonText }}
                       </a>
                     </li>
