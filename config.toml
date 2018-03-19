@@ -186,6 +186,11 @@ googleAnalytics = ""
     and ever expanding technical skillset make me a dynamic team member and an ideal candidate.
     I look forward to the continued development of my technical skills and a lifetime of learning.
     I enjoy building lean, intuitive and thoroughly tested applications that add value to lives of others."""
+
+    subtitleTwo = """When Im not building websites, I enjoy snowboarding, mountain biking and photography.
+    I took all the backdrop photos behind my portfolio projects.  Thank you for stopping by.
+    I hope to hear from you!"""
+
     buttonText = "Reach Out"
     # url = "blogs"
 
