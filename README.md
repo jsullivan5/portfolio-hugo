@@ -36,7 +36,12 @@ $ git clone git@github.com:jsullivan5/portfolio-hugo.git
 
 Navigate to root directory and start local server
 ```
-hugo server
+hugo serve
+```
+
+Navigate in browser to:
+```
+http://localhost:1313/
 ```
 
 ## Production Build
