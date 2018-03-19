@@ -4,8 +4,14 @@
   border-radius: 10px;
 }
 
-	@media screen and (max-width: 736px) {
-    #banner {
-      text-align: center;
-    }
+@media screen and (max-width: 736px) {
+  #banner {
+    text-align: center;
   }
+}
+
+@media screen and (max-width: 736px) and (min-width: 481px) {
+  .tiles article {
+    height: 30em;
+  }
+}
