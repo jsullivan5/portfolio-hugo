@@ -3,3 +3,9 @@
   width: 200px;
   border-radius: 10px;
 }
+
+	@media screen and (max-width: 736px) {
+    #banner {
+      text-align: center;
+    }
+  }
