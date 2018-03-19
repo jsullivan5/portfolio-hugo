@@ -1,0 +1,44 @@
+{{ "<!-- Header -->" | safeHTML }}
+    <header id="header" class="alt">
+        <a href="{{ .Site.BaseURL }}" class="logo">{{ if .Site.Params.Navigation.logo }}<img src="{{ .Site.Params.baseURL }}/img/{{ .Site.Params.Navigation.logo }}" alt="" />{{ else }}<strong>{{ .Site.Params.Navigation.title }}</strong> <span>{{ .Site.Params.Navigation.subtitle }}</span>{{ end }}</a>
+        <nav>
+            <a href="#menu">{{ .Site.Params.Navigation.menu }}</a>
+        </nav>
+    </header>
+
+{{ "<!-- Menu -->" | safeHTML }}
+    <nav id="menu">
+        <ul class="links">
+
+            {{ range .Site.Params.Navigation.home }}
+                <li><a href="#banner" class="scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.resume }}
+                <li><a href="{{ .url | absURL }}" target="_blank">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.portfolio }}
+                <li><a href="#one" class="scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.about }}
+                <li><a href="#two" class="scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.contact }}
+                <li><a href="#contact" class="scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.social }}
+                <li><a href="#footer" class="scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.links }}
+                <li><a href="{{ .url | absURL}}">{{ .name }}</a></li>
+            {{ end }}
+
+        </ul>
+        <ul class="actions vertical">
+            {{ range .Site.Params.Navigation.button1 }}
+                <li><a href="#two" class="button special fit scrolly">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.button2 }}
+                <li><a href="#one" class="button fit scrolly">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
