@@ -20,9 +20,10 @@ googleAnalytics = ""
   description = "Your description"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["additional.css"]
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "favicon_32x32.ico"
+  headshot   = "headshot.jpg"
 
   # Just a custom image variable, please define it in .md files for content.
   image = ""
@@ -105,7 +106,6 @@ googleAnalytics = ""
     subtitle = "Web Developer"
     buttonText = "MY RESUME"
 
-
   # Tiles Section
   [params.tiles]
     enable = true
@@ -186,8 +186,8 @@ googleAnalytics = ""
     and ever expanding technical skillset make me a dynamic team member and an ideal candidate.
     I look forward to the continued development of my technical skills and a lifetime of learning.
     I enjoy building lean, intuitive and thoroughly tested applications that add value to lives of others."""
-    buttonText = "Get Started"
-    url = "blogs"
+    buttonText = "Reach Out"
+    # url = "blogs"
 
 
   # Contact section
