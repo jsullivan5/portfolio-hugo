@@ -99,7 +99,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "JAMES SULLIVAN"
     subtitle = "Web Developer"
-    buttonText = "MY PORTFOLIO"
+    buttonText = "MY RESUME"
 
 
   # Tiles Section
