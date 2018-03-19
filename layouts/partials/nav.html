@@ -13,6 +13,9 @@
             {{ range .Site.Params.Navigation.home }}
                 <li><a href="#banner" class="scrolly">{{ .name }}</a></li>
             {{ end }}
+            {{ range .Site.Params.Navigation.resume }}
+                <li><a href="{{ .url | absURL }}" target="_blank">{{ .name }}</a></li>
+            {{ end }}
             {{ range .Site.Params.Navigation.portfolio }}
                 <li><a href="#one" class="scrolly">{{ .name }}</a></li>
             {{ end }}
