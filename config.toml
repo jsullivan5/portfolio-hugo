@@ -43,6 +43,10 @@ googleAnalytics = ""
     [[params.navigation.home]]
       name="Home"
 
+    [[params.navigation.resume]]
+      name="resume"
+      url="/JamesSullivanResume.pdf"
+
     [[params.navigation.portfolio]]
       name="Portfolio"
 
@@ -252,7 +256,3 @@ googleAnalytics = ""
     icon = "fa-instagram"
     url= "https://www.instagram.com/cultural_ambassador/"
     label = "Instagram"
-    # [[params.footer.quicklinks]]
-    #   text = "Design: "
-    #   url= "https://www.html5up.net"
-    #   alt = "HTML5 UP"
