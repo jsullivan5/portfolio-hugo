@@ -1,5 +1,5 @@
 # Site settings
-baseURL = ""
+baseURL = "https://jsullivan5.github.io/"
 languageCode = "en-us"
 title = "James Sullivan"
 theme = "forty"
