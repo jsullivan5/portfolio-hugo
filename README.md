@@ -50,6 +50,10 @@ http://localhost:1313/
 hugo -t forty
 ```
 
+## Screen Shots
+
+![Screenshot of this site](site-screenshot.png?raw=true "My Portfolio")
+
 ## Built With
 
 * [Hugo](https://gohugo.io)
