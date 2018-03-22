@@ -187,6 +187,10 @@ googleAnalytics = ""
     I look forward to the continued development of my technical skills and a lifetime of learning.
     I enjoy building lean, intuitive and thoroughly tested applications that add value to lives of others."""
 
+    subtitle2 = """Outside of development, I enjoy anything outdoors.  I'm also an avid photographer.
+    I took all the photos behind my projects above.  If you have any questions, just ask.  I'd love to
+    hear from you!"""
+
     buttonText = "Reach Out"
     # url = "blogs"
 
